@@ -1,0 +1,13 @@
+body {
+	background-color: hsl(240, 78%, 98%);
+	background-image: url('./images/bg-top.svg'), url('./images/bg-bottom.svg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right top, left bottom;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

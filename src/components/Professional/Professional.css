@@ -1,0 +1,88 @@
+.professional {
+	display: inline-block;
+	padding: 45px 25px 55px 25px;
+	background-image: linear-gradient(#a2a7f0, #696edd);
+	border-radius: 10px;
+	width: 350px;
+	height: 453px;
+	box-shadow: 0 0 10px 1px #ddd;
+	position: relative;
+}
+
+.package-name {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 28px;
+	color: #fff;
+	text-align: center;
+}
+
+.package-price-pro {
+	padding: 0 0 24px 0;
+	font-weight: 700;
+	text-align: center;
+	color: #fff;
+}
+
+.currency-pro {
+	font-size: 32px;
+	padding: 0 5px 0 0;
+	text-align: center;
+}
+
+.price-pro {
+	font-size: 62px;
+}
+
+.package-features {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 28px;
+	color: #fff;
+	text-align: center;
+}
+
+.package-features li:first-child {
+	border-top: 1px solid #fff;
+}
+
+.package-features li {
+	border-bottom: 1px solid #fff;
+	padding: 15px 5px 15px 5px;
+}
+
+.button-pro {
+	background-color: #fff;
+	color: #6d72de;
+	font-family: Montserrat;
+	font-size: 13px;
+	font-weight: 700;
+	display: inline-block;
+	width: 100%;
+	margin: 24px 0 0 0;
+	padding: 15px 0 15px 0;
+	text-transform: uppercase;
+	border-radius: 6px;
+	letter-spacing: 0.1rem;
+	line-height: 16px;
+	z-index: 1;
+}
+
+.button-pro:hover {
+	cursor: pointer;
+	background: #6d72de;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+@media only screen and (max-width: 1200px) {
+	.professional {
+		display: block;
+		border-radius: 10px;
+		margin: 0 auto 40px auto;
+		box-shadow: 10px #ddd;
+	}
+}

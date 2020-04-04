@@ -1,0 +1,89 @@
+.master {
+	display: inline-block;
+	padding: 25px;
+	background-color: #fff;
+	border-radius: 0 10px 10px 0;
+	width: 350px;
+	height: 453px;
+	box-shadow: 0 0 10px 1px #ddd;
+	position: relative;
+	margin: 0 -4px 0 0;
+	z-index: 0;
+}
+
+.package-name-master {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 28px;
+	color: #6e728e;
+	text-align: center;
+}
+
+.package-price-master {
+	padding: 0 0 24px 0;
+	font-weight: 700;
+	text-align: center;
+}
+
+.currency {
+	font-size: 32px;
+	padding: 0 5px 0 0;
+	text-align: center;
+}
+
+.price {
+	font-size: 62px;
+}
+
+.package-features-master {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 28px;
+	color: #6e728e;
+	text-align: center;
+}
+
+.package-features-master li:first-child {
+	border-top: 1px solid #6e728e;
+}
+
+.package-features-master li {
+	border-bottom: 1px solid #6e728e;
+	padding: 15px 5px 15px 5px;
+}
+
+.button-master {
+	background-image: linear-gradient(to right, #a2a7f0, #696edd);
+	color: #fff;
+	font-family: Montserrat;
+	font-size: 13px;
+	font-weight: 700;
+	display: inline-block;
+	width: 100%;
+	margin: 24px 0 0 0;
+	padding: 15px 0 15px 0;
+	text-transform: uppercase;
+	border-radius: 6px;
+	letter-spacing: 0.1rem;
+	line-height: 16px;
+}
+
+.button-master:hover {
+	cursor: pointer;
+	background: #fff;
+	color: #6d72de;
+	border: 1px solid #6d72de;
+}
+
+@media only screen and (max-width: 1200px) {
+	.master {
+		display: block;
+		border-radius: 10px;
+		margin: 0 auto 40px auto;
+		box-shadow: 10px #ddd;
+		height: 453px;
+	}
+}

@@ -1,0 +1,93 @@
+.basic {
+	display: inline-block;
+	padding: 25px;
+	background-color: #fff;
+	border-radius: 10px 0 0 10px;
+	width: 350px;
+	height: 453px;
+	box-shadow: 0 0 10px 1px #ddd;
+	position: relative;
+	margin: 0 -4px 0 0;
+	z-index: 0;
+}
+
+.package-name-basic {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 28px;
+	color: #6e728e;
+	text-align: center;
+}
+
+.package-price-basic {
+	padding: 0 0 24px 0;
+	font-weight: 700;
+	text-align: center;
+}
+
+.currency {
+	font-size: 32px;
+	padding: 0 5px 0 0;
+	text-align: center;
+	color: #6e728e;
+	font-weight: 700;
+}
+
+.price {
+	font-size: 62px;
+	color: #6e728e;
+	font-weight: 700;
+}
+
+.package-features-basic {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 28px;
+	color: #6e728e;
+	text-align: center;
+}
+
+.package-features-basic li:first-child {
+	border-top: 1px solid #6e728e;
+}
+
+.package-features-basic li {
+	border-bottom: 1px solid #6e728e;
+	padding: 15px 5px 15px 5px;
+}
+
+.button-basic {
+	background: linear-gradient(to right, #a2a7f0, #696edd);
+	color: #fff;
+	font-family: Montserrat;
+	font-size: 13px;
+	font-weight: 700;
+	display: inline-block;
+	width: 100%;
+	margin: 24px 0 0 0;
+	padding: 15px 0 15px 0;
+	text-transform: uppercase;
+	border-radius: 6px;
+	letter-spacing: 0.1rem;
+	line-height: 16px;
+}
+
+.button-basic:hover {
+	cursor: pointer;
+	background: #fff;
+	color: #6d72de;
+	border: 1px solid #6d72de;
+}
+
+@media only screen and (max-width: 1200px) {
+	.basic {
+		display: block;
+		border-radius: 10px;
+		margin: 0 auto 40px auto;
+		box-shadow: 10px #ddd;
+		height: 453px;
+	}
+}
